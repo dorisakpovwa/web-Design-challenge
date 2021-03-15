@@ -19,6 +19,7 @@ body {
   color: #fff;
 }
 
+
 .skyblue {
   background: deepskyblue;
 }
@@ -45,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 a {
@@ -59,9 +60,9 @@ a {
 }
 
 /* Selecting elements by ID */
-#main-bio,
+#main-temp,
 #contact-info,
-#bio-image {
+#temp-image {
   float: left;
 }
 
@@ -69,22 +70,46 @@ a {
   position: relative;
 }
 
-#bio-name {
+#fig-name {
   position: absolute;
-  top: 150px;
-  left: 30px;
+    top: 150px;
+    left: 210px
 }
 
-#main-bio {
-  width: 70%;
+#visualization {
+  position: absolute;
+    top: 150px;
+    left: 210px
+}
+
+#main-temp {
+  width: 60%;
 }
 
 #contact-info {
   width: 30%;
 }
 
-#bio-image {
-  width: 200px;
-  height: 200px;
+#temp-image {
+  width: 180px;
+  height: 180px;
+  margin-right: 20px;
+}
+
+#cloud-image {
+  width: 180px;
+  height: 180px;
+  margin-right: 20px;
+}
+
+#humi-image {
+  width: 180px;
+  height: 180px;
+  margin-right: 20px;
+}
+
+#windsp-image {
+  width: 180px;
+  height: 180px;
   margin-right: 20px;
 }
