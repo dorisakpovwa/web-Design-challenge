@@ -61,6 +61,9 @@ a {
 
 /* Selecting elements by ID */
 #main-temp,
+#main-cloud,
+#main-humi,
+#main-windsp,
 #main-content {
   float: left;
 }
@@ -97,6 +100,14 @@ a {
   width: 60%;
 }
 
+#main-cloud {
+  width: 60%;
+}
+
+#main-windsp {
+  width: 60%;
+}
+
 #contact-info {
   width: 30%;
 }
@@ -127,6 +138,13 @@ a {
   margin-right: 20px;
 }
 
+#cloud-image2 {
+  width: 480px;
+  height: 360px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
 #humi-image {
   width: 180px;
   height: 180px;
@@ -144,4 +162,11 @@ a {
   width: 180px;
   height: 180px;
   margin-right: 20px;
+}
+
+#windsp-image2 {
+  width: 480px;
+  height: 360px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
