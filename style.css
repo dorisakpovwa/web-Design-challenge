@@ -58,7 +58,10 @@ a {
  width: 1024px;
  margin: 0 auto;
 }
-
+.comparison {
+  width: 1024px;
+  margin: 0 auto;
+ }
 /* Selecting elements by ID */
 #main-temp,
 #main-cloud,
@@ -106,8 +109,8 @@ a {
 }
 
 #temp-image1 {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   margin-right: 20px;
   margin-top: 20px;
 }
