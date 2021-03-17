@@ -59,7 +59,7 @@ a {
 
 /* Selecting elements by class */
 .container {
- width: 1024px;
+ width: 960px;
  margin: 0 auto;
 }
 .comparison {
@@ -129,12 +129,12 @@ a {
 }
 
 /* Selecting positions of images for individual pages */
-#temp-image2
-#cloud-image2
-#humi-image2
+#temp-image2,
+#cloud-image2,
+#humi-image2,
 #windsp-image2 {
-  width: 360px;
-  height: 360px;
+  width: 480px;
+  height: 420px;
   margin-right: 20px;
   margin-top: 20px;
 }
